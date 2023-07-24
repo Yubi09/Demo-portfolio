@@ -131,6 +131,8 @@ h5 {
   color: var(--text-black);
 }
 
+
+
 p {
   color: var(--text-gray);
   font-size: 0.9375rem;
@@ -257,6 +259,21 @@ p {
   background: var(--bg-white);
 }
 
+/* projects */
+
+.projects_wrapper .card {
+  background-color: var(--bg-light);
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
+.projects_wrapper .card:hover {
+  box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+  background: var(--bg-white);
+}
 
 /* footer */
 
