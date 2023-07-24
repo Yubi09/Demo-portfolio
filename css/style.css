@@ -241,6 +241,24 @@ p {
   color: var(--text-white);
 }
 
+/* Skills */
+
+.skills_wrapper .card {
+  background-color: var(--bg-light);
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  width: 18rem;
+}
+
+.skills_wrapper .card:hover {
+  box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+  background: var(--bg-white);
+}
+
+
 /* footer */
 
 .footer_wrapper .social-icon li {
